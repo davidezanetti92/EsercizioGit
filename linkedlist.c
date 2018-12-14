@@ -105,7 +105,7 @@ radice->next=NULL;
 int x=100;
 printf("\n\n");
 while(x!=STOP){                            // commandi
-printf("1 per add\n2 per stampa\n3 per del\n4 cancellare un numero specifivo\n0 per chiudere\n5 per cancellare il nome\n6 aggiungere in testa\n7 per cancellare testa\n\n");
+printf("0 per chiudere\n1 per add\n2 per stampa\n3 per del\n4 cancellare un numero specifivo\n5 per cancellare il nome\n6 aggiungere in testa\n7 per cancellare testa\n\n");
 scanf("%x",&x);
 printf("\n");
 if(x==ADD){add(radice);printf("\n");}
