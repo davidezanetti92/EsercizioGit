@@ -9,7 +9,7 @@
 #define DELETA 4 
 #define DELNOME 5 
 #define ADDTESTA 6 
-#define DELTESTA 5 
+#define DELTESTA 7
 #define LEN 20
 /////////////////////////////////////////////////
 typedef struct persona{   /* crea la struttura */ 
